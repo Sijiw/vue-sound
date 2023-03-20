@@ -1,0 +1,46 @@
+:root {
+  --gray-200: #e5e7eb;
+  --gray-300: #d1d5db;
+  --bg-hover-gray: var(--gray-200);
+  --bg-active-gray: var(--gray-200);
+  --border-color: var(--gray-300);
+
+  --border-radius-base: 4px;
+  font-size: 10px;
+}
+
+:root::-webkit-scrollbar {
+  display: none;
+}
+
+/* :root::-webkit-scrollbar {
+  width: 12px;
+}
+
+:root::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background-color: var(--gray-300);
+}
+
+:root::-webkit-scrollbar-track {
+  border-radius: 4px;
+} */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  width: 100%;
+  height: 100%;
+  /* background-color: #f5f7ff; */
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
